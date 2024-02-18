@@ -11,8 +11,8 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js</li>
         <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        {/* <li>PostgreSQL</li> */}
+        {/* <li>Sequelize</li> */}
         <li>JavaScript</li>
         <li>React</li>
       </ul>
@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>National Institute Of Technolgy Agartala</li>
+        <li>Bachelor of Technology in Electrical Engineering.</li>
       </ul>
     ),
   },
@@ -57,11 +57,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-           I am a dedicated and innovative Electrical Engineering undergraduate student with a strong passion for technology and
-programming. Proficient in a diverse range of skills, including web development, Python programming, Data
-Structures and Algorithms (DSA) , and competitive programming. Possesses a keen problem-solving mindset
-and an ability to apply engineering principles to real-world challenges.Committed to continuous learning and
-staying updated with emerging trends in software development.
+            I am a dedicated and innovative Electrical Engineering undergraduate student with a strong passion for technology and
+            programming. Proficient in a diverse range of skills, including web development, Python programming, Data
+            Structures and Algorithms (DSA) , and competitive programming. Possesses a keen problem-solving mindset
+            and an ability to apply engineering principles to real-world challenges.Committed to continuous learning and
+            staying updated with emerging trends in software development.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
